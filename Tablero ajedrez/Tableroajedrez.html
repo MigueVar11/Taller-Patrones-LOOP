@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tablero de ajedrez</title>
+</head>
+
+<body>
+    <div>
+        <center>
+            <h1 style="color: blue">Tablero de ajedrez</h1>
+
+            <script>
+                var lado1 = 8;
+                var lado2 = 7;
+                for (var i = 0; i < 4; i++) {
+                    for (var j = 0; j < lado1; j++) {
+                        document.write(" * ",'&nbsp');
+                    }
+                    document.write("<br>")
+                    for (var j = 0; j < lado2; j++) {
+                        document.write(" * ",'&nbsp');
+                    }
+                    document.write("<br>");
+
+                }
+
+            </script>
+        </center>
+    </div>
+</body>
+
+</html>

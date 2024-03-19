@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Piramide Izquierda</title>
+</head>
+<body>
+    <center>
+    <h1> Piramide Izquierda</h1>
+    <script >
+        // Definir la altura de la pirámide
+        var altura = 5;
+        
+        // Bucle para dibujar cada fila
+        for (var i = 1; i <= altura; i++) {
+            // Bucle para dibujar los asteriscos en cada fila
+            for (var j = 1; j <= i; j++) {
+                document.write('*');
+            }
+            // Insertar un salto de línea después de cada fila
+            document.write('<br>');
+        }
+        </script>
+        </center>
+</body>
+</html>
